@@ -1,0 +1,81 @@
+html {
+  text-size-adjust: 100%;
+}
+
+body {
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333333;
+  margin: .4em;
+  padding: 0px;
+  height: 100%
+}
+nav {
+	display:flex;
+	justify-content: space-between;
+	background-color: #f3f3f3;
+	padding: 0 .3em;
+}
+nav li {
+	display: inline;
+	list-style-type: none;
+	font-weight: bold;
+	padding: .3em;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav img {
+	padding: .2em;
+	color: #4183c4;
+	margin-top: .7em;
+	margin-left: .7em;
+	
+
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+}
+section img {
+	border: 1px solid black;
+	margin: .7em;
+}
+b {
+	color: #333;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #cacaca;
+	padding: 1em .7em;
+	color: #777;
+	font-size: 12px;
+}
+footer li {
+		display: inline;
+		list-style-type: none;
+		padding: .3em;
+		
+}
+footer a {
+	text-decoration: none;
+}
+.octo-text {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	color: #666;
+	margin: .2em .7em 2em .5em;
+	border-bottom: 1px solid #cacaca;
+}
+.octo-number {
+	color: #cacaca;
+	margin: 0;
+}
+.octo-name {
+	margin: 0;
+}
+
